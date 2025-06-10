@@ -1,38 +1,39 @@
-# Byte-compiled / optimized / DLL files
+
+---
+
+## 📄 `.gitignore`
+
+```gitignore
+# Python
 __pycache__/
 *.py[cod]
-*$py.class
+*.pyo
+*.pyd
 
 # Virtual environments
-.env
 .venv/
 env/
 venv/
 ENV/
 
-# Distribution / packaging
-build/
-dist/
-*.egg-info/
-
-# Logs
+# Logs & debug
 *.log
+*.sqlite
+*.db
 
-# Test output
-.coverage
-.tox/
-.cache/
+# Testing
 .pytest_cache/
+.cache/
+.coverage
 
-# IDEs / editors
+# IDEs
 .vscode/
 .idea/
-*.swp
 
-# OS files
+# OS-specific
 .DS_Store
 Thumbs.db
 
-# Frontend build (React)
+# Frontend
 web_admin/frontend/node_modules/
 web_admin/frontend/build/
